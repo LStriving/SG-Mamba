@@ -10,7 +10,7 @@ const outputImagePath = './image_inner/real.jpg';
     <el-divider />
 
     <el-row justify="center">
-      <h1 class="section-title">Image Inner Comparison</h1>
+      <h1 class="section-title">Heatmap and RGB Input</h1>
     </el-row>
 
     <el-row justify="center">
