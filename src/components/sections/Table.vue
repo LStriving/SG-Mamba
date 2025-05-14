@@ -63,7 +63,7 @@ const tableData = [
                         </el-table>
                     </el-tab-pane>
 
-                    <el-tab-pane label="Method B" name="Method B">
+                    <!-- <el-tab-pane label="Method B" name="Method B">
                         Method B
                     </el-tab-pane>
 
@@ -73,7 +73,7 @@ const tableData = [
 
                     <el-tab-pane label="Method D" name="Method D">
                         Method D
-                    </el-tab-pane>
+                    </el-tab-pane> -->
                     </el-tabs>
 
                 </el-card>

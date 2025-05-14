@@ -27,15 +27,15 @@ export default {
     Video,
     ImageSlider,
     ImageSliderInner,
-    ImageSelector,
+    // ImageSelector,
     Echart,
-    Collapse,
+    // Collapse,
     Table,
     SeletionForComparison,
-    Comment,
-    Latex,
-    Model3D,
-    GaussianSplats3D
+    // Comment,
+    // Latex,
+    // Model3D,
+    // GaussianSplats3D
   }
 }
 </script>
@@ -46,16 +46,16 @@ export default {
   <Video/>
   <Abstract/>
   <Markdown/>
-  <Latex/>
+  <!-- <Latex/> -->
   <Table/>
-  <Collapse/>
+  <!-- <Collapse/> -->
   <Echart/>
-  <Model3D/>
-  <GaussianSplats3D/>
+  <!-- <Model3D/> -->
+  <!-- <GaussianSplats3D/> -->
   <SeletionForComparison/>
   <ImageSliderInner/>
   <ImageSlider/>
-  <ImageSelector/>
+  <!-- <ImageSelector/> -->
   <BibTeX/>
-  <Comment/>
+  <!-- <Comment/> -->
 </template>

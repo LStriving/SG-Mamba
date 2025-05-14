@@ -13,13 +13,14 @@ import {
 const logo = "";
 
 // 标题
-const title = "Skeleton-Guided Mamba for Temporal Micro-Action Localization";
+const title = "Temporal Micro-Action Localization with Skeleton-Guided Mamba for Videofluoroscopic Swallowing Study";
 
 // 标题颜色
 const title_color = "#000000";
 
 // 标题补充，没有则置为''即可
-const title_supp = " (SG-Mamba)";
+// const title_supp = " (SG-Mamba)";
+const title_supp = "";
 
 // 标题补充颜色
 const title_supp_color = "#42B883";
@@ -27,43 +28,62 @@ const title_supp_color = "#42B883";
 // 按钮颜色
 const btn_color = "#444444";
 
+//Yirui Li, Kai Zhou, Meng Dai, Haiyu Zhou, Jinwu Hu, Yifan Yang, Jian Chen, Fei Liu, \\Hongmin Cai, \IEEEmembership{Senior Member, IEEE}, Mingkui Tan, \IEEEmembership{Senior Member, IEEE
 // 作者清单（包含作者姓名、头像、主页、地址序号）
 const authors = [
   {
     name: "Yirui Li",
     icon: "",
-    homepage: "https://LStriving.github.io/",
-    address_flag: "1",
+    homepage: "https://github.com/LStriving",
+    address_flag: "1, †",
   },
   {
     name: "Kai Zhou",
     icon: "",
-    homepage: "",
-    address_flag: "1",
+    homepage: "https://scholar.google.com/citations?user=58UyQ9cAAAAJ&hl=zh-CN&oi=ao",
+    address_flag: "1, †",
   },
   {
     name: "Meng Dai",
     icon: "",
-    homepage: "",
+    homepage: "https://orcid.org/0000-0001-8275-572X",
     address_flag: "2",
+  },
+  {
+    name: "Haiyu Zhou",
+    icon: "",
+    homepage: "https://loop.frontiersin.org/people/1320354/overview",
+    address_flag: "3",
   },
   {
     name: "Jinwu Hu",
     icon: "",
-    homepage: "",
+    homepage: "https://scholar.google.com/citations?user=XmqjPi0AAAAJ&hl=en",
     address_flag: "1",
   },
   {
     name: "Yifan Yang",
     icon: "",
-    homepage: "",
+    homepage: "https://scholar.google.com/citations?user=veb6adUAAAAJ&hl=zh-CN&oi=ao",
     address_flag: "1",
+  },
+  {
+    name: "Jian Chen",
+    icon: "",
+    homepage: "https://www.scholat.com/ellachen.en",
+    address_flag: "1, *",
   },
   {
     name: "Fei Liu",
     icon: "",
-    homepage: "",
-    address_flag: "1",
+    homepage: "https://scholar.google.com/citations?user=gC-YMYgAAAAJ&hl=en",
+    address_flag: "1, *",
+  },
+  {
+    name: "Hongmin Cai",
+    icon: "",
+    homepage: "https://scholar.google.com/citations?user=B2BWq_EAAAAJ&hl=zh-CN&oi=ao",
+    address_flag: "1, *",
   },
   {
     name: "Mingkui Tan",
@@ -87,21 +107,28 @@ const addresses = [
     icon: "./icon/sysu.jpg",
     homepage: "https://www.sysu.edu.cn/",
   },
+  {
+    address_flag: "3",
+    name: "Guangdong Provincial People's Hospital",
+    icon: "./icon/OIP.jpg",
+    homepage: "https://www.gdghospital.org.cn/en/"
+  }
 ];
 
 // 共一和通讯提示
-const con_and_corresponding_author = "*: Corresponding Author.";
+const con_and_corresponding_author = "†: Equal Contribution, *: Corresponding Author.";
 
 // 最新消息
 const news =
-  "🔥 [2024-12-15] This template project is still under development.";
+  "";
+  // "🔥 [2025-5-15] We have released our code.";
 
 // 强调内容
 const emphases = [
-  "🎉 [ICML 2025] Poster",
-  "🥰 欢迎关注“减论”微信公众号/B站/知乎/小红书",
-  "传递人工智能算法科普教育的减约理解",
-  "提升信息效率及认知维度",
+  // "🎉 [TMI 2025]",
+  // "🥰 ",
+  // "传递人工智能算法科普教育的减约理解",
+  // "提升信息效率及认知维度",
 ];
 
 // 提供引导资料链接
@@ -113,13 +140,14 @@ const buttons = [
   },
   {
     disabled: true,
-    name: "中译版",
+    name: "Supplementary",
+    link: "",
     component: Document,
   },
   {
     disabled: false,
     name: "Code",
-    link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
+    link: "https://github.com/LStriving/Skeleton-Guided-Mamba",
     component: Files,
   },
   {
@@ -128,28 +156,23 @@ const buttons = [
     link: "https://junyaohu.github.io/academic-project-page-template-vue",
     component: MagicStick,
   },
-  {
-    disabled: true,
-    name: "Poster",
-    component: Picture,
-  },
-  {
-    disabled: true,
-    name: "Slide",
-    component: DataAnalysis,
-  },
+  // {
+  //   disabled: true,
+  //   name: "Poster",
+  //   component: Picture,
+  // },
   {
     disabled: false,
-    name: "Video (减论)",
-    link: "https://www.bilibili.com/video/BV15XkgYiE73/",
+    name: "System Demo",
+    link: "",
     component: Film,
   },
-  {
-    disabled: false,
-    name: "Video (Tutorial)",
-    link: "https://www.bilibili.com/video/BV1oUrfYzEqZ",
-    component: Film,
-  },
+  // {
+  //   disabled: false,
+  //   name: "Video (Tutorial)",
+  //   link: "https://www.bilibili.com/video/BV1oUrfYzEqZ",
+  //   component: Film,
+  // },
 ];
 </script>
 
@@ -159,7 +182,7 @@ const buttons = [
     <el-row justify="center">
       <el-col :span="24">
         <el-alert
-          title="🔥 This template is still under development."
+          title="🔥 We have release our code."
           type="success"
         />
       </el-col>
