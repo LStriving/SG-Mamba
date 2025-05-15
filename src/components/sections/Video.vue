@@ -6,7 +6,7 @@
     <el-divider />
 
     <el-row justify="center">
-      <h1 class="section-title">Demo Video</h1>
+      <h1 class="section-title">System Demo</h1>
     </el-row>
 
     <!-- 每个网站的视频的iframe可能不一致，最好在这里手动调整 -->
@@ -16,7 +16,7 @@
         <!-- local -->
         <el-container class="video-container">
           <video controls muted preload playsinline>
-            <source src="/video/demo.mp4" type="video/mp4">
+            <source src="/video/system-demo.mp4" type="video/mp4">
           </video>
         </el-container>
         
