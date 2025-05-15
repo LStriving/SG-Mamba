@@ -150,12 +150,12 @@ const buttons = [
     link: "https://github.com/LStriving/Skeleton-Guided-Mamba",
     component: Files,
   },
-  {
-    disabled: false,
-    name: "Demo",
-    link: "https://junyaohu.github.io/academic-project-page-template-vue",
-    component: MagicStick,
-  },
+  // {
+  //   disabled: false,
+  //   name: "Demo",
+  //   link: "https://junyaohu.github.io/academic-project-page-template-vue",
+  //   component: MagicStick,
+  // },
   // {
   //   disabled: true,
   //   name: "Poster",
