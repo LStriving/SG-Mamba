@@ -10,7 +10,7 @@ import page from '../mds/md.mdx';
       <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
         <h3>Framework</h3>
         <el-image 
-          src="/model/framework.png" 
+          src="/https://raw.githubusercontent.com/LStriving/Skeleton-Guided-Mamba/refs/heads/main/assets/framework.png" 
           fit="contain"
           alt="Framework"
         />
