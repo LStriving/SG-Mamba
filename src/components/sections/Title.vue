@@ -103,9 +103,9 @@ const addresses = [
   },
   {
     address_flag: "2",
-    name: "Sun YAT-SEN University",
-    icon: "./icon/sysu.jpg",
-    homepage: "https://www.sysu.edu.cn/",
+    name: "Sun Yat-Sen University Affiliated Third Hospital",
+    icon: "./icon/hospital.png",
+    homepage: "https://www.zssy.com.cn/",
   },
   {
     address_flag: "3",
