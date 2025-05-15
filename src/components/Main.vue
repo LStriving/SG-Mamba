@@ -42,19 +42,19 @@ export default {
 
 <template>
   <Title/>
-  <Carousel/>
+  <!-- <Carousel/> -->
   <Video/>
   <Abstract/>
   <Markdown/>
   <!-- <Latex/> -->
-  <Table/>
+  <!-- <Table/> -->
   <!-- <Collapse/> -->
-  <Echart/>
+  <!-- <Echart/> -->
   <!-- <Model3D/> -->
   <!-- <GaussianSplats3D/> -->
-  <SeletionForComparison/>
-  <ImageSliderInner/>
-  <ImageSlider/>
+  <!-- <SeletionForComparison/> -->
+  <!-- <ImageSliderInner/> -->
+  <!-- <ImageSlider/> -->
   <!-- <ImageSelector/> -->
   <BibTeX/>
   <!-- <Comment/> -->
