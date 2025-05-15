@@ -139,7 +139,7 @@ const buttons = [
     component: Document,
   },
   {
-    disabled: true,
+    disabled: false,
     name: "Supplementary",
     link: "https://github.com/LStriving/Skeleton-Guided-Mamba/assets/Supplementary.pdf",
     component: Document,
