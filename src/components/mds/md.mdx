@@ -1,9 +1,8 @@
 ### Performance
 
 Comparison with State-of-the-Art Methods.
-The best and second performances are highlighted in **bold** and _underline_, respectively.
-"Ske." denotes skeleton input. Temporal action localization methods are applied _as-is_ to VFSS for temporal micro-action localization.
-"Oracle" means we use the ground-truth of coarse stage as the input proposals to explore the upper bound of our method.
+The best performances are highlighted in **bold**.
+"Ske." denotes skeleton input. Temporal action localization methods are applied **as-is** to VFSS for temporal micro-action localization.
 
 | Method            | Detector     | Ske. | 0.1      | 0.2      | 0.3      | 0.4      | 0.5      | 0.6      | 0.7      | Avg.     |
 | ----------------- | ------------ | ---- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
@@ -11,9 +10,9 @@ The best and second performances are highlighted in **bold** and _underline_, re
 | ActionFormer      | ActionFormer |      | 76.8     | 74.4     | 69.7     | 59.3     | 48.8     | 38.5     | 24.6     | 56.0     |
 | TriDet            | TriDet       |      | 79.6     | 76.6     | 72.4     | 63.7     | 53.1     | 40.9     | 26.2     | 58.9     |
 | AdaTAD            | AdaTAD       |      | 81.0     | 77.4     | 70.0     | 62.3     | 54.4     | 42.1     | 24.8     | 58.9     |
-| ActionMamba       | ActionMamba  |      | 82.0     | **79.3** | 74.3     | 67.4     | 53.1     | 37.1     | 19.9     | 59.0     |
+| ActionMamba       | ActionMamba  |      | 82.0     | 79.3     | 74.3     | 67.4     | 53.1     | 37.1     | 19.9     | 59.0     |
 | Ruan et al.       | A2Net        |      | 70.9     | 67.5     | 62.5     | 55.0     | 46.1     | 31.6     | 15.8     | 49.9     |
 | Ruan et al.       | ActionMamba  |      | 77.9     | 75.0     | 69.5     | 62.2     | 54.8     | 45.2     | 28.9     | 59.1     |
 | Hyder et al.      | ActionMamba  | ✓    | 76.8     | 74.6     | 69.4     | 62.0     | 56.2     | 45.2     | 30.8     | 59.3     |
-| SG-Mamba (Ours)   | ActionMamba  | ✓    | _83.1_   | 78.5     | _74.6_   | _67.9_   | _59.0_   | _50.0_   | _37.2_   | _64.3_   |
-| SG-Mamba (Oracle) | ActionMamba  | ✓    | **91.2** | **86.3** | **83.7** | **75.7** | **66.9** | **56.7** | **42.2** | **71.8** |
+| SG-Mamba (Ours)   | Actionformer | ✓    | 82.7     | **80.1** | **75.9** | 67.1 | 58.4 | 49.2 | 33.5 | 63.8 |
+| SG-Mamba (Ours)   | ActionMamba  | ✓    | **83.1**   | 78.5     | **74.6**   | **67.9**   | **59.0**   | **50.0**   | **37.2**   | **64.3**   |

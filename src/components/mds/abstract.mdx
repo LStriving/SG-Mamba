@@ -1,9 +1,20 @@
 # Abstract
 
-Videofluoroscopic Swallowing Study (VFSS) is the gold standard for assessing swallowing disorders,
-enabling detailed analysis of swallowing phases.
-Temporal micro-action localization in VFSS, which needs to identify and localize micro-actions
-(e.g., hyoid motion, {'<'}2s), is critical for diagnosis but faces significant challenges: 1) **Spatial ambiguity**. Subtle anatomical movements are obscured by noise and blurred contours in X-ray images. 2) **Temporal complexity**. Micro-actions are extremely short, making them difficult to localize in lengthy videos.
-Existing methods detect the whole swallowing before localizing micro-actions or trim videos to handle brief actions.
-However, they fail to focus on key anatomical structures and struggle with efficient spatiotemporal modeling.
-To address these issues, we propose Channel-enhanced Cross-Mamba (CCM), a framework that integrates 1) skeleton heatmap sequences to suppress noise and enhance key anatomical focus, and 2) a Mamba-based architecture with Channel-enhanced Cross-Mamba(CCM) to fuse the appearance features with skeleton guidance, enabling rich spatiotemporal features through efficient bidirectional modeling. Our framework achieves state-of-the-art performance, surpassing the previous method by 14.4\% in average mAP.
+Videofluoroscopic Swallowing Study (VFSS)
+is the gold standard for assessing swallowing disorders,
+enabling detailed analysis of swallowing phases. Temporal
+micro-action localization in VFSS, which needs to identify
+and localize micro-actions (e.g., hyoid motion, {'<'}2s), is
+critical for diagnosis but faces significant challenges due
+to spatial ambiguity in noisy X-ray images and the extremely short duration of micro-actions. Existing methods
+handle brief actions by either localizing swallowing events
+before identifying micro-actions or trimming videos for focused analysis. However, they rely solely on appearance-
+based data that are highly susceptible to noise and back-
+ground interference. To this end, we propose Skeleton-
+Guided Mamba for Temporal Micro-Action Localization (SG-
+Mamba). Our method incorporates a novel skeleton modality that encodes the motion of key anatomical landmarks as
+heatmap sequences, effectively suppressing noise and enhancing anatomical focus. We further introduce a Channel-
+enhanced Cross-Mamba (CCM) module that fuses these
+skeleton representations with traditional appearance features, enabling efficient cross-modal spatiotemporal modeling with linear complexity. Our framework achieves state-
+of-the-art performance, surpassing the previous method by
+14.4% in average mAP.
