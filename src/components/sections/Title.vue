@@ -182,7 +182,7 @@ const buttons = [
     <el-row justify="center">
       <el-col :span="24">
         <el-alert
-          title="🔥 The code is coming soon..."
+          title="🔥 The code is released now !"
           type="success"
         />
       </el-col>
